@@ -227,3 +227,6 @@ autocmd Filetype js setlocal tabstop=4 softtabstop=0 expandtab shiftwidth=4
 " Issue with backspace after installing YouCompleteMe
 " http://vim.wikia.com/wiki/Backspace_and_delete_problems
 set backspace=2
+
+" Remap esc to jj in insert mode
+inoremap jj <Esc>
